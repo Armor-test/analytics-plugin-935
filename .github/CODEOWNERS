@@ -1,0 +1,37 @@
+# CODEOWNERS file for analytics-plugin-935
+# Global owners - will be requested for all PRs
+* @Armor-test/team-reporting @Armor-test/dept-automation @Armor-test/dept-billing
+
+# Directory ownership
+/shared/ @Armor-test/dept-api @Armor-test/squad-payments @Armor-test/team-research
+/services/ @Armor-test/team-security @Armor-test/team-logging @Armor-test/grp-api
+/modules/ @Armor-test/dept-billing @Armor-test/team-security
+/hooks/ @Armor-test/dept-ui @Armor-test/squad-product
+/lib/ @Armor-test/team-notifications @Armor-test/squad-reporting
+/db/ @Armor-test/grp-payments @Armor-test/squad-cloud
+/ui/ @Armor-test/squad-performance @Armor-test/squad-database
+/middleware/ @Armor-test/squad-database @Armor-test/squad-search
+/api/ @Armor-test/grp-ui @Armor-test/dept-data
+/plugins/ @Armor-test/dept-automation @Armor-test/team-security
+/docs/ @Armor-test/squad-cache @Armor-test/squad-tooling
+/vendor/ @Armor-test/squad-frontend @Armor-test/squad-payments @Armor-test/grp-integration
+/components/ @Armor-test/squad-ux @Armor-test/team-governance
+/core/ @Armor-test/dept-release @Armor-test/team-security
+/build/ @Armor-test/squad-ux @Armor-test/unit-cloud
+
+# File type ownership
+*.proto @Armor-test/team-core @Armor-test/grp-integration @Armor-test/team-frontend
+*.properties @Armor-test/grp-api @Armor-test/dept-test @Armor-test/team-logging
+*.php @Armor-test/dept-test @Armor-test/team-security @Armor-test/dept-api
+*.h @Armor-test/team-core @Armor-test/unit-test @Armor-test/squad-apps
+*.c @Armor-test/squad-database @Armor-test/squad-api @Armor-test/squad-research
+*.config @Armor-test/squad-product @Armor-test/grp-storage
+*.yml @Armor-test/dept-release @Armor-test/squad-product
+*.yaml @Armor-test/grp-reporting @Armor-test/dept-reliability @Armor-test/dept-billing
+*.lock @Armor-test/dept-reporting @Armor-test/team-research @Armor-test/squad-performance
+*.toml @Armor-test/team-frontend @Armor-test/team-logging
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+package.json @Armor-test/dependency-team @Armor-test/security
+Dockerfile @Armor-test/devops @Armor-test/infra
